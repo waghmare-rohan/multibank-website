@@ -83,3 +83,7 @@ img {
 }
 
 /* Main-sec */
+.Deposit-calculator .contaner .content-Deposit-calculator .form-content div{
+  display: flex;
+  flex-direction: column;
+}
