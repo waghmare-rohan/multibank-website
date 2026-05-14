@@ -39,21 +39,55 @@ img {
 }
 
 /* header-sec */
-.upper-navigation {
+
+.logo-menu {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid black;
+  align-items: center;
+  border-bottom: 1px solid #ced0d6;
+}
+.comapany-logo {
+  width: 50%;
+  padding: 15px 10px 15px 20px;
 }
 
-.menu-search-icon {
+.comapany-logo img {
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.search-icon-menu {
+  width: 50%;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: center;
+  padding: 15px 20px 15px 10px;
+  gap: 18px;
+}
+
+.search-icon img {
+  width: 17px;
+}
+
+.menu-icon {
+  background-color: #dc1414;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
+.menu-icon i {
+  color: white;
+  font-size: 28px;
+  line-height: 1px;
+  display: block;
+  -webkit-text-stroke: 1px;
+}
 
-/* .menu-icon {
-} */
-
-.menu-icon li {
+.menu li {
   display: none;
 }
 
@@ -66,9 +100,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
-
   margin: auto;
-
   border: 1px solid black;
   padding: 12px 35px;
 }
@@ -79,11 +111,11 @@ img {
 
 .online-banking a {
   color: black;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /* Main-sec */
-.Deposit-calculator .contaner .content-Deposit-calculator .form-content div{
+.Deposit-calculator .contaner .content-Deposit-calculator .form-content div {
   display: flex;
   flex-direction: column;
 }

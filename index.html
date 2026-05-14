@@ -12,24 +12,33 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
       <section class="main-navigation">
-        <div class="navigation">
-          <div class="upper-navigation">
-            <div class="logo-img">
-              <img
-                src="images/illustration/main-logo.svg"
-                alt="Multibank Logo"
-              />
+        <div class="container">
+          <div class="logo-menu">
+            <div class="comapany-logo">
+              <img src="images/illustration/main-logo.svg" alt="" />
             </div>
-            <div class="menu-search-icon">
+
+            <div class="search-icon-menu">
               <div class="search-icon">
-                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <img src="images/illustration/search.png" alt="" />
               </div>
-              <div class="menu-icon">
-                <i class="fa-solid fa-bars"></i>
+              <div class="menu-list">
+                <div class="menu-icon">
+                  <a href="#">
+                    <i class="bi bi-list"></i>
+                  </a>
+                </div>
                 <nav class="menu">
                   <ul>
                     <li><a href="#">Home</a></li>
@@ -66,7 +75,7 @@
             <p>Welcome to Multibank</p>
 
             <div class="text-content">
-              <h1>The future of banking is already here</h1>
+              <h2>The future of banking is already here</h2>
               <p class="description">
                 $0 Monthly Service Charge. Low minimum deposit to open.
               </p>
@@ -90,7 +99,7 @@
           <div class="services">
             <div class="service-item">
               <img src="images/illustration/banking.png" alt="" />
-              <div class="service title">
+              <div class="service-title">
                 <h3>Banking</h3>
                 <a href="#">
                   <i class="fa-solid fa-angle-right"></i>
@@ -133,7 +142,7 @@
 
       <section class="products-section">
         <div class="container">
-          <h1>Top Products & Services</h1>
+          <h2>Top Products & Services</h2>
           <div class="content">
             <p><span>Money Transfer</span></p>
             <h2>Reach your savings goals, one by one</h2>
@@ -171,10 +180,10 @@
           </div>
 
           <div class="card-btn">
-            <div class="Signature Card">
+            <div class="Signature-Card">
               <a href="#">Signature Card</a>
             </div>
-            <div class="Platinum Card">
+            <div class="Platinum-Card">
               <a href="#">Platinum Card</a>
             </div>
           </div>
@@ -202,7 +211,7 @@
         </div>
       </section>
 
-      <section class="Mobile-App">
+      <section class="mobile-app">
         <div class="container">
           <div class="img-mobile-app">
             <img src="images/illustration/Mobile-app-img.jpg" alt="" />
@@ -229,7 +238,7 @@
         </div>
       </section>
 
-      <section class="Online-banking">
+      <section class="online-banking">
         <div class="container">
           <p>online and mobile banking</p>
           <h2>The path to financial wellness starts here</h2>
@@ -300,8 +309,8 @@
           </div>
 
           <div class="online-banking-card">
-            <div class="Rates & calculators">
-              <div class="Rates & calculators-img">
+            <div class="Rates-calculators">
+              <div class="Rates-calculators-img">
                 <img src="images/illustration/calculations.png" alt="" />
               </div>
               <div class="content-banking">
@@ -313,8 +322,8 @@
         </div>
       </section>
 
-      <section class="Deposit-calculator">
-        <div class="contaner">
+      <section class="deposit-calculator">
+        <div class="container">
           <div class="deposit-calculator-img">
             <img src="images/illustration/Deposit-calculator-img.jpg" alt="" />
           </div>
@@ -322,18 +331,20 @@
             <p>calculate your deposit</p>
             <form class="form-content">
               <div>
-                <label for="">Deposit amount: *</label>
-                <input type="text" placeholder="10000" />
+                <label for="Deposit-amount">Deposit amount: * </label>
+                <input id="Deposit-amount" type="text" placeholder="10000" />
               </div>
 
               <div>
-                <label for="">Deposit term (months): *</label>
-                <input type="text" placeholder="12" />
+                <label for="Deposit-term">Deposit term (months): * </label>
+                <input id="Deposit-term" type="text" placeholder="12" />
               </div>
 
               <div>
-                <label for="">During this period you will accumulate:</label>
-                <input type="text" placeholder="0" />
+                <label for="accumulate"
+                  >During this period you will accumulate:
+                </label>
+                <input id="accumulate" type="text" placeholder="0" />
               </div>
               <button type="submit">Submit Application</button>
             </form>
@@ -341,7 +352,7 @@
         </div>
       </section>
 
-      <section class="News & Stories">
+      <section class="News-Stories">
         <div class="container">
           <h2>News & Stories</h2>
           <div class="content-news-story">
@@ -401,7 +412,7 @@
         </div>
       </section>
 
-      <section class="ATM-Foreign exchange rate">
+      <section class="ATM-Foreign-exchange-rate">
         <div class="container">
           <div class="atm">
             <div class="atm-content">
