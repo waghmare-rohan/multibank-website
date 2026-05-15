@@ -38,7 +38,7 @@ img {
   width: 100%;
 }
 
-/* header-sec */
+/*-------------------------header-sec---------------------------*/
 
 .logo-menu {
   display: flex;
@@ -114,8 +114,68 @@ img {
   font-size: 15px;
 }
 
-/* Main-sec */
+/*-------------------------Main-sec---------------------------*/
+
+/* hero-img */
+.main-img {
+  height: 200px;
+}
+.main-img img {
+  transform: scaleX(1.6);
+  height: 200px;
+}
+
+.hero-content {
+  background-color: #dc1414;
+}
+
+.hero-content .content {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 23px;
+}
+
+.hero-content .content div {
+  margin-bottom: 30px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #f9c2c2;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.content h2 {
+  font-weight: 600;
+}
+.content .description {
+  color: #f9c2c2;
+}
+
+.content .learn-btn {
+  background-color: white;
+  color: black;
+  padding: 16px 35px;
+}
+
 .Deposit-calculator .contaner .content-Deposit-calculator .form-content div {
   display: flex;
   flex-direction: column;
+}
+
+/* banking-section */
+
+.banking-section .contaner {
+  display: flex;
+  flex-direction: column;
+}
+
+.banking-section .contaner .banking-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
