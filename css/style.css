@@ -90,7 +90,7 @@ img {
   align-items: center;
   gap: 10px;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 12px 35px;
 }
 
@@ -518,4 +518,206 @@ img {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+/* ====================================== */
+/* online banking */
+
+.online-banking-heading-content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.online-banking-heading-content p {
+  color: #aaabb0;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0 0 20px 0;
+}
+
+.online-banking-heading-content h3 {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 0 0 20px 0;
+}
+
+.online-banking-card {
+  display: flex;
+  padding: 20px;
+}
+
+.online-banking-img {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.content-banking {
+  margin-left: 30px;
+}
+
+.content-banking h3 {
+  font-weight: 400;
+}
+.content-banking p {
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.content-banking div {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.content-banking i {
+  padding-left: 15px;
+  color: #aaabb0;
+}
+
+/* ====================================== */
+/* deposit calculator */
+
+.deposit-calculator .container {
+  padding: 20px;
+}
+
+.deposit-calculator-img {
+  position: relative;
+}
+
+.image-text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+}
+
+.image-text h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.image-text p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #aaabb0;
+}
+
+.content-Deposit-calculator {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.content-Deposit-calculator p {
+  color: #aaabb0;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0 0 30px 0;
+}
+
+.form-content label {
+  display: block;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.form-content input {
+  margin-bottom: 30px;
+  border: 1px solid #cecfd6;
+  padding: 14px 75px 14px 15px;
+}
+
+.submit-app {
+  display: flex;
+  justify-content: center;
+  background-color: #dc1414;
+}
+.form-content button {
+  background-color: #dc1414;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 16px 35px;
+}
+
+/* ====================================== */
+/* News-Stories */
+
+.News-Stories {
+  padding: 20px;
+}
+
+.News-Stories .container h2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.news-story {
+  background-color: #f5f5f5;
+}
+
+.content-news-story {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content-news-story p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaabb0;
+  margin-bottom: 15px;
+}
+
+.content-news-story h4 {
+  color: #191b22;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+}
+
+.read-more-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+.read-more-btn a {
+  color: black;
+}
+
+.read-more-btn i {
+  color: #d3d5da;
+}
+
+.all-news {
+  display: inline-block;
+  color: #000000;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.all-news a {
+  border: 1px solid #111;
+  color: #000000;
+  font-size: 14px;
+  padding: 16px 35px;
+}
+
+/* ====================================== */
+/* help-center */
+
+.help-center .container {
+  padding: 0 20px;
 }
