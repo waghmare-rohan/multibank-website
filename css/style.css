@@ -718,6 +718,310 @@ img {
 /* ====================================== */
 /* help-center */
 
+.help-center {
+  padding: 0px 20px;
+  margin-bottom: 35px;
+}
+
 .help-center .container {
-  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-help-center {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.help-title {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaabb0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.content-help-center h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.content-help-center p {
+  color: #848595;
+  margin-bottom: 20px;
+}
+
+.content-help-center span {
+  color: #dc1414;
+}
+.all-questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question p {
+  color: #191b4c;
+  font-size: 15px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #dcdcdc;
+  flex: 1;
+}
+
+.question i {
+  align-items: center;
+  gap: 20px;
+}
+
+/* ====================================== */
+/* ATM-Foreign-exchange-rate */
+
+.ATM-Foreign-exchange-rate .container {
+  padding: 0px 20px;
+  margin-bottom: 30px;
+}
+
+.atm {
+  background-color: #f5f5f5;
+}
+
+.atm-content {
+  padding: 30px 20px;
+}
+
+.atm-content h4 {
+  font-size: 17px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.atm-content button {
+  background-color: #dc1414;
+  color: white;
+  border: none;
+  padding: 16px 35px;
+}
+
+.Foreign-exchange-rate {
+  border: 1px solid #d3d5da;
+  padding: 30px 20px;
+}
+
+.Foreign-exchange-rate h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.rates-table {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #d3d5da;
+  margin-bottom: 30px;
+}
+
+.inner-table {
+  padding: 0 10px;
+}
+
+.table-content {
+  color: #84879d;
+  padding: 10px;
+}
+
+.table-content h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.view-more-btn {
+  color: #000000;
+}
+
+.view-more-btn a {
+  color: #000000;
+}
+
+/*-------------------------Footer---------------------------*/
+/* ATM-Foreign-exchange-rate */
+
+.footer-section {
+  background-color: #191b22;
+}
+.open-account {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.open-account h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px;
+}
+.open-act-btn {
+  padding: 20px;
+}
+
+.open-account button {
+  padding: 16px 35px;
+  background-color: #dc1414;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+.bank-logo-socialmedia-appstore {
+  padding: 0px 20px;
+}
+
+.span-border {
+  padding: 20px;
+}
+.span-border span {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #43454c;
+}
+
+.bank-logo-socialmedia-appstore {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  display: block;
+}
+
+.logo img {
+  width: 202px;
+  height: 61px;
+}
+
+.social-media-content {
+  display: flex;
+  margin: 0px 0px 10px;
+}
+.social-media-content h3 {
+  color: #95969a;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.socail-media-logo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.socail-media-logo i {
+  font-size: 22px;
+  color: white;
+  gap: 10px;
+}
+
+.apple-google-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 25px;
+  border: 1px solid #3e3f45;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.apple-google-btn i {
+  color: white;
+  font-size: 22px;
+}
+.footer-all-list {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.lower-list {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-all-list h6 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #aaabb0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.footer-all-list a {
+  font-size: 15px;
+  color: white;
+}
+
+.footer-all-list li {
+  margin-bottom: 18px;
+}
+
+.info-contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.add-contact ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  color: #8b8a8f;
+}
+
+.add-contact p {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.bank-info {
+  margin-bottom: 30px;
+}
+
+.copyright-sec {
+  display: flex;
+  flex-direction: column;
+  color: #8b8a8f;
+  background-color: #191b22;
+  font-size: 13px;
+  align-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.copyright-sec p {
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 5px;
 }
